@@ -1,5 +1,8 @@
 @include('navigation')
 
 <div>
-    <!-- Waste no more time arguing what a good man should be, be one. - Marcus Aurelius -->
+    <h1>Contacts</h1>
+    <p>Phone: 123-456-7890</p>
+    <p>Email:
+
 </div>

@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 class ContactsController extends Controller
 {
     //
-    public function index()
+    public function index(): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
-        return view('contact');
+        return view('contacts');
     }
 }
